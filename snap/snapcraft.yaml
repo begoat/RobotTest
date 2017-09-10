@@ -1,0 +1,16 @@
+name: robottest
+version: 1.0
+summary: robottest can let robot do many interesting things for us 
+description: Use OpenCV to do image recoginition and call the Dobot Magician API to operate the robot arm, letting him do what we want it to do.
+confinement: devmode
+
+build-packages: [gcc, g++, libc6-dev, libopencv-dev]
+
+apps:
+  robottest:
+    command: bin/example
+
+parts:
+  robottest:
+    plugin: cmake
+    source: src
