@@ -5,12 +5,8 @@ assets:
   stage-packages: []
 project_options: {deb_arch: amd64}
 properties:
-  constraints: null
-  plugin: python
-  python-packages: [opencv-python]
-  python-version: python3
-  requirements: null
-  source: .
+  plugin: cmake
+  source: src
   source-branch: ''
   source-commit: ''
   source-depth: 0
@@ -18,4 +14,4 @@ properties:
   source-tag: ''
   source-type: ''
   stage-packages: []
-schema_properties: [requirements, constraints, python-packages, python-version]
+schema_properties: []

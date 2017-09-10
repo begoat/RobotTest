@@ -7,10 +7,10 @@ confinement: devmode
 build-packages: [gcc, g++, libc6-dev, libopencv-dev]
 
 apps:
-  robottest:
+  example:
     command: bin/example
 
 parts:
-  robottest:
+  example:
     plugin: cmake
     source: src
