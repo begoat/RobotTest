@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/hanniko/77F7-9CA0/robottest/parts/example/src/main.cpp
+iostream
+-
+opencv2/core/core.hpp
+-
+
