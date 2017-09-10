@@ -12,5 +12,4 @@ int main()
     matrix.at<uint8_t>(cv::Point(1, 1)) = 4;
 
     std::cout << matrix << std::endl;
-	std::cout << "waiting for calling camera ...";
 }
